@@ -15,7 +15,7 @@ export const menu = {
       id: "creme-brulee-latte",
       name: "Crème Brûlée Latte",
       price: 650,
-      description: "Espresso + Vanilla Custard + Caramelized Sugar",
+      description: "Espresso + Vanilla Custard + Caramelized",
       image: creamBruleeLatte,
     },
     {

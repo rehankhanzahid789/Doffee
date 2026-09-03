@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import logo from "../assets/logo/doffee-06.png";
-import { BagIcon, MenuIcon, CloseIcon } from "./icons/Icons";
+import { MenuIcon, CloseIcon } from "./icons/Icons";
 import { useOrder } from "../context/OrderContext";
 
 const links = [
@@ -70,7 +70,6 @@ export default function Navbar() {
             onClick={() => navigate("/order")}
             className="flex items-center gap-2 rounded-full bg-orange px-5 py-2.5 text-[15px] font-semibold text-brown-darker shadow-sm transition hover:bg-orange-dark active:scale-[0.98]"
           >
-            <BagIcon size={17} />
             Order Now
             {itemCount > 0 && (
               <span className="ml-0.5 flex h-5 min-w-5 items-center justify-center rounded-full bg-brown-darker px-1 text-xs font-bold text-cream">
@@ -125,7 +124,6 @@ export default function Navbar() {
             }}
             className="mt-3 flex w-full items-center justify-center gap-2 rounded-full bg-orange px-5 py-3.5 text-base font-semibold text-brown-darker"
           >
-            <BagIcon size={18} />
             Order Now
           </button>
         </div>

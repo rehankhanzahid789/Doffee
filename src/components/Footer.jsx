@@ -26,7 +26,7 @@ export default function Footer() {
           </p>
           <p className="mt-2 text-sm text-cream/60">donut and coffee bliss</p>
           <p className="mt-5 max-w-[26ch] text-sm leading-relaxed text-cream/60">
-            Pastries and espresso drinks, designed to be eaten and drunk together.
+            Croissants and espresso drinks, designed to be eaten and drunk together.
           </p>
           <div className="mt-6 flex flex-col gap-2.5 sm:flex-row sm:flex-wrap">
             {team.map(({ name, url }) => (

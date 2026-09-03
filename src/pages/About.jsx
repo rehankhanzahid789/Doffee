@@ -53,7 +53,7 @@ export default function About() {
               Donut × coffee, not donut and coffee.
             </h2>
             <p className="mt-5 text-[16px] leading-relaxed text-brown-dark/70">
-              Doffee started as a simple question: why does the donut shop close before the coffee bar opens, and why do coffee bars treat pastries as an afterthought in a glass case? We built doffee to sit exactly at that intersection — pastries and espresso drinks designed together from the first recipe test, meant to be eaten and drunk in the same sitting.
+              Doffee started as a simple question: why does the donut shop close before the coffee bar opens, and why do coffee bars treat Croissants as an afterthought in a glass case? We built doffee to sit exactly at that intersection — Croissants and espresso drinks designed together from the first recipe test, meant to be eaten and drunk in the same sitting.
             </p>
             <p className="mt-4 text-[16px] leading-relaxed text-brown-dark/70">
               Every donut is glazed the same morning it's sold. Every espresso drink is built to hold its own against something sweet, not disappear next to it. Nothing on the menu is there because a supplier had it — it's there because it works with something else on the counter.

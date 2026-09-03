@@ -4,9 +4,8 @@ import espressoCrop from "../assets/lifestyle/espresso-machine-crop.jpg";
 import takeaway from "../assets/lifestyle/doffee-takeaway.jpg";
 import tee from "../assets/lifestyle/doffee-tee.jpg";
 import coldCoffee from "../assets/lifestyle/cold-coffee-mockup.jpg";
-import menuFront from "../assets/logo/menu-front.jpg";
 import ProductCarousel from "../components/ProductCarousel";
-import { CupIcon, DonutIcon, PinIcon, ArrowIcon, BagIcon } from "../components/icons/Icons";
+import { CupIcon, DonutIcon, PinIcon, ArrowIcon } from "../components/icons/Icons";
 import { menu } from "../data/menu";
 import { useOrder } from "../context/OrderContext";
 
@@ -66,7 +65,6 @@ export default function Home() {
               onClick={openMaintenance}
               className="flex items-center gap-2 rounded-full bg-orange px-7 py-3.5 text-[15px] font-semibold text-brown-darker transition hover:bg-orange-dark active:scale-[0.98]"
             >
-              <BagIcon size={18} />
               Order Now
             </button>
             <Link
@@ -91,7 +89,7 @@ export default function Home() {
               Donut × coffee. Not two shops sharing a wall.
             </h2>
             <p className="mt-5 max-w-md text-[16px] leading-relaxed text-brown-dark/70">
-              Doffee lives at the intersection of a donut shop and a coffee bar — pastries and espresso drinks designed from the start to be eaten and drunk together, not as an afterthought pairing.
+              Doffee lives at the intersection of a donut shop and a coffee bar — and espresso drinks designed from the start to be eaten and drunk together, not as an afterthought pairing.
             </p>
             <p className="mt-4 max-w-md font-display text-lg italic text-brown-dark/80">
               "Rule of thumb: brown leads, cream carries, orange finishes."
@@ -160,25 +158,6 @@ export default function Home() {
           <img src={takeaway} alt="Customer holding a doffee iced matcha and takeaway bag" className="col-span-2 aspect-[4/3] w-full rounded-2xl object-cover sm:col-span-1 sm:aspect-square" />
           <img src={tee} alt="Barista in a doffee-branded t-shirt at the espresso bar" className="aspect-[4/3] w-full rounded-2xl object-cover sm:aspect-square" />
           <img src={coldCoffee} alt="Iced coffee in a doffee branded cup" className="aspect-[4/3] w-full rounded-2xl object-cover sm:aspect-square" />
-        </div>
-      </section>
-
-      {/* CTA band */}
-      <section className="relative mt-20 overflow-hidden sm:mt-28">
-        <div className="absolute inset-0">
-          <img src={menuFront} alt="" className="h-full w-full object-cover object-[center_48%]" />
-        </div>
-        <div className="relative mx-auto flex max-w-3xl flex-col items-center px-5 py-24 text-center sm:py-32">
-          <p className="mb-4 max-w-sm text-[17px] leading-relaxed text-cream/85">
-            Come sit at the counter, or bring the counter to you.
-          </p>
-          <button
-            type="button"
-            onClick={openMaintenance}
-            className="rounded-full bg-orange px-8 py-3.5 text-[15px] font-semibold text-brown-darker transition hover:bg-orange-dark active:scale-[0.98]"
-          >
-            Order Now
-          </button>
         </div>
       </section>
     </>

@@ -33,7 +33,7 @@ function Layout({ children }) {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <OrderProvider>
         <ScrollToTop />
         <Layout>

@@ -47,7 +47,7 @@ export default function Home() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-brown-darker/85 via-brown-darker/40 to-brown-darker/20" />
         </div>
-        <div className="relative mx-auto flex min-h-[86svh] max-w-6xl flex-col justify-end px-5 pb-16 pt-40 sm:px-8 sm:pb-24">
+        <div className="relative mx-auto flex min-h-[62svh] max-w-6xl flex-col justify-end px-5 pb-14 pt-24 sm:min-h-[72svh] sm:px-8 sm:pb-20 sm:pt-28">
           <p className="reveal mb-4 font-body text-sm font-semibold uppercase tracking-[0.2em] text-orange">
             donut and coffee bliss
           </p>

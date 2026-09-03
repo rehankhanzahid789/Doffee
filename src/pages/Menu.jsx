@@ -15,7 +15,7 @@ export default function Menu() {
           The warm world of doffee
         </h1>
         <p className="mt-4 text-[16px] leading-relaxed text-brown-dark/65">
-          Coffee, croissants and sandwiches — everything made to be paired. Prices in PKR.
+          Coffee, donuts, croissants and sandwiches — everything made to be paired. Prices in PKR.
         </p>
       </header>
 

@@ -200,7 +200,7 @@ export default function About() {
               <img
                 src={coldCoffee}
                 alt="Two iced drinks in doffee cups on the counter"
-                className="h-40 w-full object-cover"
+                className="aspect-square w-full object-cover"
               />
             </div>
           </div>

@@ -89,7 +89,7 @@ export default function Home() {
               Donut × coffee. Not two shops sharing a wall.
             </h2>
             <p className="mt-5 max-w-md text-[16px] leading-relaxed text-brown-dark/70">
-              Doffee lives at the intersection of a donut shop and a coffee bar — and espresso drinks designed from the start to be eaten and drunk together, not as an afterthought pairing.
+              Doffee lives at the intersection of a donut shop and a coffee bar — handcrafted donuts and espresso drinks designed from the start to be eaten and drunk together, not as an afterthought pairing.
             </p>
             <p className="mt-4 max-w-md font-display text-lg italic text-brown-dark/80">
               "Rule of thumb: brown leads, cream carries, orange finishes."
